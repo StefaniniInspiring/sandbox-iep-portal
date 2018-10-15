@@ -1,0 +1,31 @@
+[debug] [2018-10-15T14:03:04.962Z] ----------------------------------------------------------------------
+[debug] [2018-10-15T14:03:04.965Z] Command:       /home/leonavas/.nvm/versions/node/v10.9.0/bin/node /home/leonavas/.nvm/versions/node/v10.9.0/bin/firebase serve --only functions
+[debug] [2018-10-15T14:03:04.965Z] CLI Version:   4.2.1
+[debug] [2018-10-15T14:03:04.965Z] Platform:      linux
+[debug] [2018-10-15T14:03:04.965Z] Node Version:  v10.9.0
+[debug] [2018-10-15T14:03:04.965Z] Time:          Mon Oct 15 2018 11:03:04 GMT-0300 (Brasilia Standard Time)
+[debug] [2018-10-15T14:03:04.965Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-15T14:03:05.000Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-15T14:03:05.000Z] > authorizing via signed-in user
+[debug] [2018-10-15T14:03:05.002Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-15T14:03:05.002Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-10-15T14:03:05.227Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-15T14:03:05.242Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/demos-2f7c5  
+ 
+[debug] [2018-10-15T14:03:06.195Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-15T14:03:06.197Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/demos-2f7c5  
+ 
+[debug] [2018-10-15T14:03:12.156Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/leonavas/projects/inspiring/proposta-portal'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-10-15T14:03:15.435Z] Fetching environment
+[debug] [2018-10-15T14:03:15.436Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/947957190069:getServerAppConfig  
+ 
+[debug] [2018-10-15T14:03:15.778Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-15T14:03:15.779Z] Starting @google-cloud/functions-emulator
+[debug] [2018-10-15T14:03:17.319Z] Parsing function triggers
+[info] ✔  functions: publish: http://localhost:5000/demos-2f7c5/us-central1/publish
